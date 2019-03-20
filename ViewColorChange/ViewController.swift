@@ -16,17 +16,20 @@ class ViewController: UIViewController {
    
     @IBAction func bt1(_ sender: Any) {
         //view1.backgroundColor = UIColor.lightGray
-        view1.isHidden = true
+        //view1.isHidden = true
+        view1.alpha = 0.5
     }
     
     @IBAction func bt2(_ sender: UIButton) {
         //view2.backgroundColor = UIColor.lightGray
-        view2.isHidden = true
+        //view2.isHidden = true
+        view2.alpha = 0.5
     }
     
     @IBAction func bt3(_ sender: UIButton) {
         //view3.backgroundColor = UIColor.lightGray
-        view3.isHidden = true
+        //view3.isHidden = true
+        view3.alpha = 0.5
     }
     
     
