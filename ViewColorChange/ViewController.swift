@@ -13,6 +13,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     @IBOutlet weak var view3: UIView!
+   
+    @IBAction func bt1(_ sender: Any) {
+        //view1.backgroundColor = UIColor.lightGray
+        view1.isHidden = true
+    }
+    
+    @IBAction func bt2(_ sender: UIButton) {
+        //view2.backgroundColor = UIColor.lightGray
+        view2.isHidden = true
+    }
+    
+    @IBAction func bt3(_ sender: UIButton) {
+        //view3.backgroundColor = UIColor.lightGray
+        view3.isHidden = true
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,5 +41,6 @@ class ViewController: UIViewController {
     }
 
 
-}
 
+
+}
